@@ -135,15 +135,14 @@
 				"enablePullDownRefresh": false,
 				"navigationBarTitleText": "设置密码"
 			}
+		}, {
+			"path": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "实名认证"
+			}
 		}
-	,{
-    "path": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
-    "style": {
-        "enablePullDownRefresh": false,
-        "navigationBarTitleText": "实名认证"
-    }
-}
-],
+	],
 	"subPackages": [{
 			"root": "pages/system",
 			"pages": [{
@@ -285,6 +284,54 @@
 					"style": {
 						"navigationBarTitleText": "表格"
 					}
+				}
+			]
+		},
+		{
+			"root": "pages/vocabulary",
+			"pages": [{
+					"path": "vo-word/add",
+					"style": {
+						"navigationBarTitleText": "新增"
+					}
+				},
+				{
+					"path": "vo-word/edit",
+					"style": {
+						"navigationBarTitleText": "编辑"
+					}
+				},
+				{
+					"path": "vo-word/list",
+					"style": {
+						"navigationBarTitleText": "列表"
+					}
+				},
+				{
+					"path": "vo-book/add",
+					"style": {
+						"navigationBarTitleText": "新增"
+					}
+				},
+				{
+					"path": "vo-book/edit",
+					"style": {
+						"navigationBarTitleText": "编辑"
+					}
+				},
+				{
+					"path": "vo-book/list",
+					"style": {
+						"navigationBarTitleText": "列表"
+					}
+				}, 
+				{
+					"path": "vo-book/word-list",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
 				}
 			]
 		},

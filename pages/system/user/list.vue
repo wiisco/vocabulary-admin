@@ -301,6 +301,7 @@
 				return dbSearchFields.map(name => queryRe + '.test(' + name + ')').join(' || ')
 			},
 			search() {
+				console.info(888);
 				const newWhere = this.getWhere()
 
 				this.where = newWhere
